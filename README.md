@@ -78,23 +78,24 @@ The project uses **XGBoost**, a scalable gradient boosting system, to classify f
 
 ---
 
-## 📊 Lancer le Dashboard Streamlit
+## 📊 Launching the Streamlit Dashboard
 
-Une interface utilisateur simple a été développée avec **Streamlit** pour visualiser les prédictions ou explorer les données.
+A simple user interface was developed using **Streamlit** to visualize predictions or explore the dataset.
 
-### ▶️ Commande à exécuter
+### ▶️ Command to Run
 
-Depuis la racine du projet, lance la commande suivante :
+From the root of the project, run the following command:
 
 ```bash
 streamlit run src/dashboard.py
 ```
 
+## 📊 Streamlit Interface – Visualization Example
 
-## 📊 Interface Streamlit – Exemple de visualisation
-
-Voici un aperçu de l'interface utilisateur Streamlit utilisée pour explorer les prédictions du modèle :
+Below is a preview of the Streamlit interface used to explore the model's predictions:
 
 ![Aperçu Streamlit](data/streamlit_dashboard.png)
 
-> 📸 Cette capture d’écran montre les prédictions en temps réel sur des transactions simulées.
+> 📸 This screenshot shows real-time predictions on simulated transactions.
+
+
