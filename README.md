@@ -25,7 +25,7 @@ fraud-detection-pipeline/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 🧪 Synthetic Data Generation
