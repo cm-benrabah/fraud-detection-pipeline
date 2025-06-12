@@ -74,3 +74,27 @@ The project uses **XGBoost**, a scalable gradient boosting system, to classify f
 
    model = XGBClassifier(scale_pos_weight=30)  # handles class imbalance
    model.fit(X_train, y_train)
+
+
+---
+
+## 📊 Lancer le Dashboard Streamlit
+
+Une interface utilisateur simple a été développée avec **Streamlit** pour visualiser les prédictions ou explorer les données.
+
+### ▶️ Commande à exécuter
+
+Depuis la racine du projet, lance la commande suivante :
+
+```bash
+streamlit run src/dashboard.py
+
+
+
+## 📊 Interface Streamlit – Exemple de visualisation
+
+Voici un aperçu de l'interface utilisateur Streamlit utilisée pour explorer les prédictions du modèle :
+
+![Aperçu Streamlit](data/streamlit_dashboard.png)
+
+> 📸 Cette capture d’écran montre les prédictions en temps réel sur des transactions simulées.
