@@ -1,2 +1,2 @@
-# Ignore the data folder
-data/
+# Ignore only CSV files in the data folder
+data/*.csv
