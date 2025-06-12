@@ -88,7 +88,7 @@ Depuis la racine du projet, lance la commande suivante :
 
 ```bash
 streamlit run src/dashboard.py
-
+```
 
 
 ## 📊 Interface Streamlit – Exemple de visualisation
