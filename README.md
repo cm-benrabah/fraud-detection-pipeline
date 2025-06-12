@@ -14,18 +14,17 @@ This project aims to detect fraudulent financial transactions using machine lear
 
 ## 📁 Project Structure
 
+```plaintext
 fraud-detection-pipeline/
-│
-├── data/ # (Ignored) Synthetic dataset files
-├── notebooks/ # Jupyter notebooks for exploration and training
-├── src/ # Source code
-│ ├── data_generator.py # (Optional) CTGAN data generation
-│ ├── model_training.py # XGBoost training script
-│ └── utils.py # Helper functions
+├── data/                  # (Ignored) Synthetic dataset files
+├── notebooks/             # Jupyter notebooks for exploration and training
+├── src/                   # Source code
+│   ├── data_generator.py  # (Optional) CTGAN data generation
+│   ├── model_training.py  # XGBoost training script
+│   └── utils.py           # Helper functions
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
 
 ---
 
